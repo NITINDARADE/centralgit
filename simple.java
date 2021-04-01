@@ -1,7 +1,7 @@
 Class Simple{
 public statis void main(string args[]){
 
-system.out.printin("Welcome to Darade Family ");
+system.out.printin("Welcome to Darade  ");
 }
 }
 
