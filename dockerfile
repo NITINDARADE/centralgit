@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER nitindarade2716@gmail.com
+MAINTAINER nitindarade33@gmail.com
 RUN yum install -y httpd \
   zip \
  unzip
@@ -10,9 +10,3 @@ RUN cp -rvf photogenic/* .
 RUN rm -rf photogenic photogenic.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
-
-
-
-
-
-
